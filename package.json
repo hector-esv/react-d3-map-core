@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "karma start",
-    "preinstall": "rm -rf ./lib && babel -w --stage 0 src --out-dir lib"
+    "preinstall": "rm -rf ./lib && babel --stage 0 src --out-dir lib"
   },
   "author": "ElixirDoc team",
   "license": "Apache 2.0",
