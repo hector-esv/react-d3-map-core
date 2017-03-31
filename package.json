@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "karma start",
-    "build": "rm -rf ./lib && babel -w --stage 0 src --out-dir lib"
+    "prepublish": "rm -rf ./lib && babel -w --stage 0 src --out-dir lib"
   },
   "author": "ElixirDoc team",
   "license": "Apache 2.0",
